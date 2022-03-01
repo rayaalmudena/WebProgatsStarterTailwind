@@ -7,3 +7,7 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.header--title{
+  text-shadow: black 2px 2px;
+}

@@ -13,16 +13,21 @@
 </head>
 
 <body>
-    <header>
-        <h1>Progats</h1>
-        <img>
-        <nav>
-            <a>Equipo</a>
-            <a>Servicios</a>
-            <a>Contacto</a>
+    <header
+        class="h-48 md:h-auto items-center justify-center flex flex-col bg-stone-200 md:bg-black gap-2 text-amber-300 font-bold sm:flex-row md:justify-between md:items-stretch">
+        <h1 class="uppercase text-3xl drop-shadow-md sm:hidden md:block">Progats</h1>
+        <img class="w-16 hidden sm:block md:hidden" src="./img/logo.webp">
+        <nav class="flex flex-col items-center justify-center gap-1 text-center sm:flex-row md:items-stretch md:gap-0">
+            <a
+                class="bg-yellow-800 w-32 rounded flex justify-center items-center hover:bg-amber-300 hover:text-yellow-800">Equipo</a>
+            <a
+                class="bg-yellow-800 w-32 rounded flex justify-center items-center hover:bg-amber-300 hover:text-yellow-800">Servicios</a>
+            <a
+                class="bg-yellow-800 w-32 rounded flex justify-center items-center hover:bg-amber-300 hover:text-yellow-800">Contacto</a>
         </nav>
     </header>
-    <!-- <section>
+      <section class="rounded bg-[url('./img/mobileCat.jpg')] sm:bg-[url('./img/sleepingCat.jpg')] h-72 bg-center bg-cover">
+        <p>¡Un hogar para cada gatito!</p>
         <p>¡Un hogar para cada gatito!</p>
     </section>
     <h2>Equipo</h2>
